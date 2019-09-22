@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "654570872185",
+    "firebase_url": "https://trooly-b12bc.firebaseio.com",
+    "project_id": "trooly-b12bc",
+    "storage_bucket": "trooly-b12bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654570872185:android:946325f9b016c4e622a3a8",
+        "android_client_info": {
+          "package_name": "com.devit.mobile.trooly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654570872185-vlf2k7qvgecg6dppvcb0cok0id8h9obi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devit.mobile.trooly",
+            "certificate_hash": "cd9c20c00c55eeb6e42a0db1e01c4f136a96e2d2"
+          }
+        },
+        {
+          "client_id": "654570872185-s0gsjq1edd11se8o6pqiiq617cuqq4nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPPIT0NWL-PHM5NM9oK3X-4am0w07RgWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654570872185-s0gsjq1edd11se8o6pqiiq617cuqq4nr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
