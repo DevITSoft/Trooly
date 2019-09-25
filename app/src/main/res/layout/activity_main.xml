@@ -8,13 +8,11 @@
 
     <ImageView
         android:id="@+id/imagefundo"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:contentDescription="TODO"
-        android:scaleType="fitXY"
-        android:src="@drawable/bkg_trooly"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="216dp" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/bkg_trooly" />
 
     <ImageView
         android:id="@+id/imagelogo"
@@ -22,47 +20,20 @@
         android:layout_height="wrap_content"
         android:contentDescription="TODO"
         android:src="@drawable/logo_trooly"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="133dp" />
+        android:layout_gravity="center"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ou entre com:"
+        android:text="By DevIT"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="#ffff"
         android:textSize="26dp"
         android:textStyle="bold"
         android:layout_gravity="bottom|center"
-        android:layout_marginBottom="190dp"/>
-
-
-    <!--<LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="bottom|center"
-        android:layout_marginBottom="80dp">
-
-        <ImageView
-            android:id="@+id/ico_google"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:contentDescription="TODO"
-            android:src="@drawable/google"/>
-
-        <ImageView
-            android:id="@+id/ico_face"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:contentDescription="TODO"
-            android:layout_marginStart="30dp"
-            android:src="@drawable/face" />
-
-
-    </LinearLayout>-->
+        android:layout_marginBottom="10dp"/>
 
 
 </FrameLayout>

@@ -10,11 +10,13 @@
 
     <ImageView
         android:id="@+id/imagelogo"
+        android:layout_width="417dp"
+        android:layout_height="746dp"
         android:background="@color/colorPrimary"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:contentDescription="TODO"
-        android:src="@drawable/logo_trooly" />
+        android:src="@drawable/logo_trooly"
+        tools:layout_editor_absoluteX="-21dp"
+        tools:layout_editor_absoluteY="-21dp" />
 
     <EditText
         android:id="@+id/username"
