@@ -23,4 +23,5 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Login</string>
     <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_cadastro">Cadastro</string>
 </resources>
