@@ -1,5 +1,6 @@
 package com.devit.mobile.trooly;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -96,6 +97,9 @@ public class Profile extends AppCompatActivity
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
+
+            startActivity(new Intent(getBaseContext(), Login.class));
+            finish();
 
         }
 
